@@ -1,0 +1,347 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.7;
+  color: #333;
+  background-color: #ffffff;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navigation */
+nav {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: #666;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #333;
+}
+
+/* Main Content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  flex: 1;
+  width: 100%;
+}
+
+/* Home Page - Hero Section */
+.home-intro {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
+}
+
+.profile-section {
+  flex-shrink: 0;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #e0e0e0;
+}
+
+.intro-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.intro-section h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.intro-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #666;
+}
+
+/* Around the Web Section */
+.around-web {
+  margin-top: 4rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #333;
+  text-align: center;
+}
+
+.link-section {
+  margin-bottom: 2.5rem;
+}
+
+.link-section-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 0.5rem;
+}
+
+.external-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.external-link:hover {
+  color: #0052a3;
+}
+
+.link-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+/* Projects Page */
+.projects-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.projects-page h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  color: #333;
+  text-align: center;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.project-item {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.project-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.project-image {
+  flex-shrink: 0;
+  width: 250px;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  object-fit: cover;
+}
+
+.project-content {
+  flex: 1;
+}
+
+.project-content h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.project-content p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.project-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* About Page */
+main p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #666;
+}
+
+/* Footer */
+footer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.footer-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  color: #666;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.footer-icon:hover {
+  color: #333;
+  transform: translateY(-2px);
+}
+
+.footer-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+/* Responsive Design - Tablet */
+@media (max-width: 768px) {
+  nav {
+    padding: 1.5rem 1rem 0.75rem;
+  }
+
+  nav ul {
+    gap: 1.5rem;
+  }
+
+  main {
+    padding: 2rem 1rem;
+  }
+
+  .home-intro {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .intro-section {
+    min-width: 100%;
+  }
+
+  .projects-page h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .project-item {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+
+  .project-content h2 {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    padding: 1.5rem 1rem;
+  }
+
+  .footer-icons {
+    gap: 1.25rem;
+  }
+}
+
+/* Responsive Design - Mobile */
+@media (max-width: 480px) {
+  nav ul {
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+
+  main {
+    padding: 1.5rem 1rem;
+  }
+
+  .intro-section h1 {
+    font-size: 1.75rem;
+  }
+
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .footer-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .footer-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+}
