@@ -11,8 +11,7 @@ permalink: /projects/
     
     <article class="project-item">
       <div class="project-image">
-        <img src="/assets/images/project1.jpg" alt="How Does Hardware Work?">
-      </div>
+         <img src="{{ '/assets/images/hardware/logic-gates.jpg' | relative_url }}" alt="How Does Hardware Work?">
       <div class="project-content">
         <h2>How Does Hardware Work?</h2>
         <p>Project 1 was a hands-on assignment for our SITE1101 course, designed to explore the fundamentals of digital electronics and logic gate design. Our team, Group 50, consisted of four members who collaborated to design and implement basic logic gates — AND, OR, NOT, NAND, and XOR — in the laboratory.</p>
@@ -22,7 +21,7 @@ permalink: /projects/
 
     <article class="project-item">
       <div class="project-image">
-        <img src="/assets/images/project2.jpg" alt="Hour of Code">
+        <img src="{{ '/assets/images/hour-of-ai/workshop.jpg' | relative_url }}" alt="Hour of Code">
       </div>
       <div class="project-content">
         <h2>Hour of Code</h2>
