@@ -167,6 +167,7 @@ main {
 
 .project-item {
   display: flex;
+  flex-direction: row;
   gap: 2rem;
   align-items: flex-start;
   padding-bottom: 3rem;
@@ -344,5 +345,4 @@ footer {
     width: 18px;
     height: 18px;
   }
-
-/* PROJECTS PAGE FIX */
+}

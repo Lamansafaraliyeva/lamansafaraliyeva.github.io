@@ -11,7 +11,8 @@ permalink: /projects/
     
     <article class="project-item">
       <div class="project-image">
-         <img src="{{ '/assets/images/hardware/logic-gates.jpg' | relative_url }}" alt="How Does Hardware Work?">
+        <img src="/assets/images/hardware/logic-gates.jpg" alt="How Does Hardware Work?">
+      </div>
       <div class="project-content">
         <h2>How Does Hardware Work?</h2>
         <p>Project 1 was a hands-on assignment for our SITE1101 course, designed to explore the fundamentals of digital electronics and logic gate design. Our team, Group 50, consisted of four members who collaborated to design and implement basic logic gates — AND, OR, NOT, NAND, and XOR — in the laboratory.</p>
@@ -21,12 +22,13 @@ permalink: /projects/
 
     <article class="project-item">
       <div class="project-image">
-        <img src="{{ '/assets/images/hour-of-ai/workshop.jpg' | relative_url }}" alt="Hour of Code">
+        <img src="/assets/images/hour-of-ai/workshop.jpg" alt="Hour of Code">
       </div>
       <div class="project-content">
         <h2>Hour of Code</h2>
-        <p>Hour of Code is a global movement introducing millions of students to computer science through one-hour coding activities. As part of this initiative, I participated in various coding challenges and tutorials designed to make programming accessible and engaging for beginners.</p>
-        <p>Through this project, I explored fundamental programming concepts, problem-solving techniques, and logical thinking. The Hour of Code experience helped me develop a stronger foundation in computational thinking and sparked my interest in pursuing further studies in technology and programming.</p>
+        <p>As part of our "Principles of Information Systems" course at ADA University, our four-member team organized a social project to introduce children to the fundamentals of computer science. We visited Boarding School No. 1 to teach students about algorithms in a fun and interactive way.</p>
+        <p>During the session, we explained simple algorithms and logical sequences using games that made learning visual and engaging. Students also created basic "AI algorithms" and used them in a small game environment called "AI Bugs", where they could test and compete with their algorithms.</p>
+        <p>This hands-on approach helped students develop logical thinking, problem-solving skills, and creativity, while making computer science accessible and enjoyable.</p>
       </div>
     </article>
 
